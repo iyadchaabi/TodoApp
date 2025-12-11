@@ -1,0 +1,32 @@
+.btnIcon{
+    transition: all 0.2s !important;
+   
+}
+.btnIcon:hover{
+    background-color: rgb(209, 204, 204) !important;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.7);
+}
+/* Bold */
+@font-face{
+font-family: Poppins;
+src: url("../public/FontFamily/Poppins-Bold.ttf");
+font-weight: bold;
+}
+/* Normal */
+@font-face{
+font-family: Poppins;
+src: url("../public/FontFamily/Poppins-Regular.ttf");
+font-weight: normal;
+}
+/* 900 */
+@font-face{
+font-family: Poppins;
+src: url("../public/FontFamily/Poppins-Black.ttf");
+font-weight: 900;
+}
+/* 200 */
+@font-face{
+font-family: Poppins;
+src: url("../public/FontFamily/Poppins-Light.ttf");
+font-weight: 200;
+}

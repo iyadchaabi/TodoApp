@@ -33,7 +33,7 @@ export default function TodoList(){
   
   React.useEffect(()=>{
     dispatch({type:"get"})
-  },[])
+  },[dispatch])
 
   function handleChange (event) {
     setNewTodo(event.target.value)

@@ -12,7 +12,9 @@
 
 export default function Todo({todo , openRemove , openUpdate}){
 
-    const {todos , dispatch} = useTodos()
+   const { dispatch } = useTodos();
+;
+
     const {showHiddenAlert} = useToast()
     
     function handleCheckBtn(){

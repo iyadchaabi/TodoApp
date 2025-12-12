@@ -23,9 +23,6 @@ This app allows users to add, delete, and manage daily tasks with a modern and r
 
 ---
 
-## 📦 Installation & Setup
+## 🔗 Live Demo
+https://fastidious-crumble-578e02.netlify.app/
 
-### Clone the project
-```bash
-git clone https://github.com/yourusername/todo-app.git
-/facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

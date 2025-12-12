@@ -2,12 +2,12 @@ import './App.css'
 import * as React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import TodoList from './TodoList';
-import TodosProvider, { TodosContext } from './TodosContext';
+import TodosProvider from './TodosContext';
 import { ToastProvider } from './ToastContext';
 
 
 
-        const initianlTodos =[
+        // const initianlTodos =[
             // {
             //     id:uuidv4(),
             //     title:'Todo 1',
@@ -20,13 +20,13 @@ import { ToastProvider } from './ToastContext';
             //     desc:'Todo Details',
             //     isCompleted:false
             // }
-        ]
+        // ]
 
 
 
 
 function App() {
-  const [todos, setTodos] = React.useState(initianlTodos);
+  // const [todos, setTodos] = React.useState(initianlTodos);
 
 const theme = createTheme({
   typography: {
